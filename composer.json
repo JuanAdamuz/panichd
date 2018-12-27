@@ -1,5 +1,5 @@
 {
-    "name": "JuanAdamuz/panichd",
+    "name": "adamuzsystems/panichd",
     "description": "Ticketing system installable in any Laravel 5.1+ project. It includes a set of common features like file attachments, ticket tags, filtering, scheduling and e-mail notifications.",
     "type": "laravel-package",
     "keywords": ["ticketing-system", "helpdesk-ticketing", "laravel", "laravel-package", "laravel-5-package"],
@@ -26,7 +26,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "JuanAdamuz\\PanicHD\\": "src"
+            "AdamuzSystems\\PanicHD\\": "src"
         }
     }
 }
