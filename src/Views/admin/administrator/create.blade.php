@@ -29,7 +29,7 @@
                         <td>
                             <div class="checkbox">
                                 <label>
-                                    <input name="administrators[]" type="checkbox" value="{{ $user->id }}" {!! $user->panichd_admin ? "checked" : "" !!}> {{ $user->name }}
+                                    <input name="administrators[]" type="checkbox" value="{{ $user->id }}" {!! $user->panichd_admin ? "checked" : "" !!}> {{ $user->getActiveName }}
                                 </label>
                             </div>
                         </td>

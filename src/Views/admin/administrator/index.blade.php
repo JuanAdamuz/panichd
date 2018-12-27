@@ -39,7 +39,7 @@
                             {{ $administrator->id }}
                         </td>
                         <td>
-                            {{ $administrator->name }}
+                            {{ $administrator->getActiveName() }}
                         </td>
                         <td>
                             {!! CollectiveForm::open([
